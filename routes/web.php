@@ -31,3 +31,6 @@ Route::get('event/cancel/{event_id}/{member_id}', 'EventController@cancel');
 /* WYSIWYG editors */
 Route::get('editor/tinymce', 'EditorController@tinymce');
 Route::post('editor/tinymce/process', 'EditorController@tinymce_process');
+
+/* Google Maps */
+Route::get('maps/hello', 'MapsController@hello');
